@@ -59,4 +59,4 @@ In this case:
 ## Push and Publish the NugetProject
     dotnet nuget push "NugetPackage_Sample/bin/Release/net7.0/publish/NugetPackage_Sample.1.1.1.1.nupkg" -k [api-key-here /] -s https://api.nuget.org/v3/index.json
 
-    dotnet nuget push NugetPackage_Sample/bin/Release/net7.0/publish/ NugetPackage_Sample.1.1.1.1.nupkg" -k oy2jo2mo6jo2kozcvk2abyaz3bgtoeaezduyverqz6gme4  -s https://api.nuget.org/v3/index.json
+    dotnet nuget push "NugetPackage_Sample/bin/Release/net7.0/publish/NugetPackage_Sample.1.1.1.1.nupkg" -k oy2jo2mo6jo2kozcvk2abyaz3bgtoeaezduyverqz6gme4 -s https://api.nuget.org/v3/index.json
