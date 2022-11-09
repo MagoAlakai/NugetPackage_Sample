@@ -40,9 +40,9 @@ You can also check the official documentation: https://learn.microsoft.com/en-us
 
 It's important to add the LICENSE and README.md files into it:
 > <ItemGroup>
-    <None Include="LICENSE" Pack="true" PackagePath="" />
-    <None Include="README.md" Pack="true" PackagePath="" />
-</ItemGroup>
+>    <None Include="LICENSE" Pack="true" PackagePath="" />
+>    <None Include="README.md" Pack="true" PackagePath="" />
+> </ItemGroup>
 
 ## Build the NugetProject of the release project
     dotnet build -c Release
