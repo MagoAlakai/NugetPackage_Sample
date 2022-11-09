@@ -4,14 +4,14 @@
 		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.1.1.1</Version>
+		<Version>1.1.1.2</Version>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<Authors>magoalakai &lt;magoalakai@gmail.com&gt;</Authors>
 		<Description>A .NET library for testing how to create a NugetPackage.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>magoalakai</PackageTags>
-		<AssemblyVersion>1.1.1.1</AssemblyVersion>
-		<FileVersion>1.1.1.1</FileVersion>
+		<AssemblyVersion>1.1.1.2</AssemblyVersion>
+		<FileVersion>1.1.1.2</FileVersion>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
 	</PropertyGroup>
