@@ -36,13 +36,16 @@ SOFTWARE.
 
 ## Fill the .csproj with the righ information
 Check the sample source code from the NugetPackage HashiValt from kibblewhite: https://github.com/kibblewhite/HashiVaultCs/blob/main/Client/Client.csproj
+
 You can also check the official documentation: https://learn.microsoft.com/en-us/nuget/create-packages/creating-a-package-dotnet-cli
 
 It's important to add the LICENSE and README.md files into it:
-> <ItemGroup>
->    <None Include="LICENSE" Pack="true" PackagePath="" />
->    <None Include="README.md" Pack="true" PackagePath="" />
-> </ItemGroup>
+~~~ xml
+<ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+</ItemGroup>
+~~~
 
 ## Build the NugetProject of the release project
     dotnet build -c Release
