@@ -39,18 +39,20 @@ Check the sample source code from the NugetPackage HashiValt from kibblewhite: h
 You can also check the official documentation: https://learn.microsoft.com/en-us/nuget/create-packages/creating-a-package-dotnet-cli
 
 It's important to add the LICENSE and README.md files into it:
-<ItemGroup>
-    <None Include="LICENSE" Pack="true" PackagePath="" />
-    <None Include="README.md" Pack="true" PackagePath="" />
-</ItemGroup>
+    <ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
 
 ## Build the NugetProject of the release project
     dotnet build -c Release
 
     dotnet pack -c Release -o "[name-of-project /]/bin/Release/net7.0/publish"
+
 In this case:
+
     dotnet pack -c Release -o "NugetPackage_Sample/bin/Release/net7.0/publish"
 
 ## Push and Publish the NugetProject
-dotnet nuget push "NugetPackage_Sample/bin/Release/net7.0/publish/NugetPackage_Sample.1.1.1.1.nupkg" -k [api-key-here /] -s https://api.nuget.org/v3/index.json
-dotnet nuget push NugetPackage_Sample/bin/Release/net7.0/publish/ NugetPackage_Sample.1.1.1.1.nupkg" -k oy2jo2mo6jo2kozcvk2abyaz3bgtoeaezduyverqz6gme4  -s https://api.nuget.org/v3/index.json
+    dotnet nuget push "NugetPackage_Sample/bin/Release/net7.0/publish/NugetPackage_Sample.1.1.1.1.nupkg" -k [api-key-here /] -s https://api.nuget.org/v3/index.json
+    dotnet nuget push NugetPackage_Sample/bin/Release/net7.0/publish/ NugetPackage_Sample.1.1.1.1.nupkg" -k oy2jo2mo6jo2kozcvk2abyaz3bgtoeaezduyverqz6gme4  -s https://api.nuget.org/v3/index.json
