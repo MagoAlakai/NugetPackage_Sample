@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.1.1.1</Version>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Authors>magoalakai &lt;magoalakai@gmail.com&gt;</Authors>
+		<Description>A .NET library for testing how to create a NugetPackage.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>magoalakai</PackageTags>
+		<AssemblyVersion>1.1.1.1</AssemblyVersion>
+		<FileVersion>1.1.1.1</FileVersion>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
